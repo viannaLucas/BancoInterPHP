@@ -1,0 +1,8 @@
+/vendor/
+/nbproject/private/
+/src/.php-cs-fixer.cache
+/CredentialsBancoInter.json
+/index.php
+/.phpunit.result.cache
+/.php-cs-fixer.cache
+/token.obj
