@@ -1,6 +1,7 @@
 {
     "name": "viannalucas/banco-inter-php",
     "description": "SDK PHP para consumir API do Banco Inter",
+    "license": "MIT",
     "type": "library",
      "config": {
         "platform": {
