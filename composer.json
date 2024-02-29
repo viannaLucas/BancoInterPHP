@@ -1,0 +1,32 @@
+{
+    "name": "viannalucas/banco-inter-php",
+    "description": "SDK PHP para consumir API do Banco Inter",
+    "type": "library",
+     "config": {
+        "platform": {
+            "php": "8.2"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "viannaLucas\\BancoInterPhp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "viannaLucas\\BancoInterPhp\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test" : "vendor/bin/phpunit",
+        "analyse": "vendor/bin/phpstan -l6 analyse src tests",
+        "phpmd": "vendor/bin/phpmd ./src text rulessets.xml --color"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.23",
+        "phpunit/phpunit": "^11.0",
+        "czim/phpunit-printer": "^2.0",
+        "phpstan/phpstan": "^1.10",
+        "phpmd/phpmd": "^2.15"
+    }
+}
